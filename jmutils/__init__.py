@@ -7,9 +7,7 @@ This module provides some useful Python functions and classes:
 
 Struct - allows 1-line definition of lightweight objects
 """
-
 def Struct(name, field_names):  # pylint: disable=C0103
-
     """ Define a lightweight class having the specified name and field names.
     """
     num_fields = len(field_names)
